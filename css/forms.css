@@ -1,0 +1,65 @@
+.auth {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #f6f9fb
+}
+
+.acopy {
+    background: #10304a;
+    color: #fff;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.acopy p {
+    color: #c6d7e3
+}
+
+.apanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px
+}
+
+.aform {
+    width: min(470px, 100%);
+    padding: 32px
+}
+
+.roles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    background: #eef3f7;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 18px 0
+}
+
+.roles button {
+    border: 0;
+    background: transparent;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--m)
+}
+
+.roles .active {
+    background: #fff;
+    color: var(--p)
+}
+
+@media(max-width:800px) {
+    .auth {
+        grid-template-columns: 1fr
+    }
+
+    .acopy {
+        display: none
+    }
+}

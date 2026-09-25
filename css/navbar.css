@@ -1,0 +1,79 @@
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: #fff;
+    border-bottom: 1px solid var(--b)
+}
+
+.navbar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font: 800 1.2rem Manrope;
+    color: var(--navy)
+}
+
+.mark {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--p);
+    color: #fff;
+    display: grid;
+    place-items: center
+}
+
+.nav {
+    display: flex;
+    gap: 22px;
+    color: #566a7c;
+    font-weight: 700;
+    font-size: .88rem
+}
+
+.nav a:hover {
+    color: var(--p)
+}
+
+.navact {
+    display: flex;
+    gap: 8px;
+    align-items: center
+}
+
+.menu {
+    display: none;
+    border: 0;
+    background: transparent
+}
+
+@media(max-width:800px) {
+    .nav {
+        display: none;
+        position: absolute;
+        top: 68px;
+        left: 12px;
+        right: 12px;
+        background: #fff;
+        border: 1px solid var(--b);
+        padding: 15px;
+        flex-direction: column;
+        border-radius: 10px
+    }
+
+    .nav.open {
+        display: flex
+    }
+
+    .menu {
+        display: block
+    }
+}

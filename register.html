@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Register | MediCore</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="brand" href="index.html"
+          ><span class="mark">+</span>MediCore</a
+        >
+        <nav class="nav">
+          <a href="index.html">Home</a><a href="services.html">Services</a
+          ><a href="doctors.html">Doctors</a><a href="about.html">About</a
+          ><a href="contact.html">Contact</a>
+        </nav>
+        <div class="navact">
+          <a class="btn secondary" href="login.html">Login</a
+          ><a class="btn primary" href="register.html">Get Started</a
+          ><button class="menu" data-menu>☰</button>
+        </div>
+      </div>
+    </header>
+    <main class="auth">
+      <section class="acopy">
+        <h1>Create your MediCore account.</h1>
+        <p>All demo data remains in this browser.</p>
+      </section>
+      <section class="apanel">
+        <div class="card aform">
+          <h1>Create account</h1>
+          <form id="register">
+            <div class="form">
+              <div class="field full">
+                <label>Full name</label><input name="name" required />
+              </div>
+              <div class="field">
+                <label>Email</label><input name="email" type="email" required />
+              </div>
+              <div class="field">
+                <label>Phone</label><input name="phone" />
+              </div>
+              <div class="field">
+                <label>Password</label
+                ><input name="password" type="password" required />
+              </div>
+              <div class="field">
+                <label>Confirm password</label
+                ><input name="confirm" type="password" required />
+              </div>
+              <div class="field">
+                <label>Account type</label
+                ><select name="role">
+                  <option value="patient">Patient</option>
+                  <option value="doctor">Doctor</option>
+                </select>
+              </div>
+            </div>
+            <button class="btn primary" style="width: 100%; margin-top: 18px">
+              Create account
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <section class="section rich-section">
+      <div class="container">
+        <div class="rich-heading">
+          <div>
+            <div class="eyebrow">Account experience</div>
+            <h2>A realistic access flow for every role</h2>
+          </div>
+          <p>
+            Authentication is intentionally simulated in the browser, while
+            keeping role-aware navigation and persistent demo state.
+          </p>
+        </div>
+        <div class="rich-grid">
+          <article class="rich-card">
+            <span class="rich-tag">Role</span>
+            <h3>Patient access</h3>
+            <p>
+              Patients can enter the care portal for appointments, records,
+              reports and billing.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Role</span>
+            <h3>Doctor access</h3>
+            <p>
+              Clinicians can reach their appointment queue, patient list,
+              records and prescriptions.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Role</span>
+            <h3>Admin access</h3>
+            <p>
+              Operations users can manage people, inventory, billing, analytics
+              and audit history.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Session</span>
+            <h3>Persistent session</h3>
+            <p>
+              The current demo user is stored in LocalStorage until logout or
+              replacement.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section rich-section">
+      <div class="container">
+        <div class="rich-heading">
+          <div>
+            <div class="eyebrow">Security boundary</div>
+            <h2>Frontend prototype, not production authentication</h2>
+          </div>
+          <p>
+            This project demonstrates interface behaviour only. Passwords and
+            role state are local demo values and must be replaced with secure
+            server-side authentication in a production system.
+          </p>
+        </div>
+        <div class="rich-grid">
+          <article class="rich-card">
+            <span class="rich-tag">Validation</span>
+            <h3>Validation</h3>
+            <p>
+              Required fields, email formats, passwords and basic input
+              constraints are checked in JavaScript.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Routing</span>
+            <h3>Role routing</h3>
+            <p>
+              The interface redirects users to role-specific dashboards after
+              demo login.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Architecture</span>
+            <h3>Production path</h3>
+            <p>
+              A future backend should own credentials, sessions, permissions and
+              sensitive healthcare data.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container fg">
+        <div>
+          <div class="brand" style="color: #fff">
+            <span class="mark">+</span>MediCore
+          </div>
+          <p>Connected Care. Smarter Healthcare.</p>
+        </div>
+        <div>
+          <h3>Platform</h3>
+          <a href="patient-dashboard.html">Patient Portal</a
+          ><a href="doctor-dashboard.html">Doctor Portal</a
+          ><a href="appointments.html">Appointments</a>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <a href="about.html">About</a><a href="services.html">Services</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Support</h3>
+          <a href="help.html">Help Center</a><a href="faq.html">FAQ</a
+          ><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+        </div>
+      </div>
+      <div class="container fb">© 2026 MediCore · Frontend prototype.</div>
+    </footer>
+    <div id="modal" class="modalbg">
+      <div class="modal">
+        <div class="mh">
+          <h3>Details</h3>
+          <button data-close>×</button>
+        </div>
+        <div class="mb"></div>
+        <div class="mf"></div>
+      </div>
+    </div>
+    <div class="toastwrap"></div>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

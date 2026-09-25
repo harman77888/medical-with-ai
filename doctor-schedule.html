@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Schedule | MediCore</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+  </head>
+  <body>
+    <aside class="side">
+      <div class="sidebrand">
+        <a class="brand" href="doctor-dashboard.html"
+          ><span class="mark">+</span>MediCore</a
+        >
+      </div>
+      <nav class="sidenav">
+        <div class="sect">doctor workspace</div>
+        <a class="sl" href="doctor-dashboard.html">Dashboard</a
+        ><a class="sl" href="doctor-appointments.html">Appointments</a
+        ><a class="sl" href="doctor-patients.html">Patients</a
+        ><a class="sl" href="doctor-records.html">Medical Records</a
+        ><a class="sl" href="doctor-prescriptions.html">Prescriptions</a
+        ><a class="sl" href="doctor-lab-reports.html">Lab Reports</a
+        ><a class="sl" href="doctor-schedule.html">Schedule</a
+        ><a class="sl" href="doctor-messages.html">Messages</a
+        ><a class="sl" href="doctor-analytics.html">Analytics</a
+        ><a class="sl" href="doctor-profile.html">Profile</a>
+      </nav>
+      <div class="sidebottom">
+        <a class="sl" href="#" data-logout>Sign out</a>
+      </div>
+    </aside>
+    <div class="overlay" data-overlay></div>
+    <div class="main">
+      <header class="top">
+        <button class="toggle" data-side>☰</button><b>Schedule</b>
+        <div><button class="btn secondary sm" data-theme>Theme</button></div>
+      </header>
+      <main class="maincontent">
+        <div class="grid g2">
+          <div class="card panel">
+            <h3>Working days</h3>
+            <p>
+              <label><input type="checkbox" checked /> Monday</label>
+            </p>
+            <p>
+              <label><input type="checkbox" checked /> Tuesday</label>
+            </p>
+            <p>
+              <label><input type="checkbox" checked /> Wednesday</label>
+            </p>
+            <p>
+              <label><input type="checkbox" checked /> Thursday</label>
+            </p>
+            <p>
+              <label><input type="checkbox" checked /> Friday</label>
+            </p>
+            <p>
+              <label><input type="checkbox" /> Saturday</label>
+            </p>
+            <p>
+              <label><input type="checkbox" /> Sunday</label>
+            </p>
+          </div>
+          <div class="card panel form">
+            <div class="field">
+              <label>Start</label><input type="time" value="09:00" />
+            </div>
+            <div class="field">
+              <label>End</label><input type="time" value="17:00" />
+            </div>
+            <div class="field">
+              <label>Break</label><input type="time" value="13:00" />
+            </div>
+            <div class="field">
+              <label>Resume</label><input type="time" value="14:00" />
+            </div>
+            <button class="btn primary" onclick="toast('Schedule saved.')">
+              Save
+            </button>
+          </div>
+        </div>
+        <script>
+          document.addEventListener("DOMContentLoaded", () =>
+            requireRole("doctor"),
+          );
+        </script>
+        <section class="section">
+          <div class="container rich-metrics">
+            <div class="rich-metric">
+              <span>Today</span><strong>08</strong
+              ><small>Scheduled consultations</small>
+            </div>
+            <div class="rich-metric">
+              <span>Patients</span><strong>184</strong
+              ><small>Assigned demo population</small>
+            </div>
+            <div class="rich-metric">
+              <span>Follow-ups</span><strong>17</strong
+              ><small>Due this period</small>
+            </div>
+            <div class="rich-metric">
+              <span>Completion</span><strong>92%</strong
+              ><small>Demo appointment completion</small>
+            </div>
+          </div>
+        </section>
+        <section class="section rich-section">
+          <div class="container">
+            <div class="rich-heading">
+              <div>
+                <div class="eyebrow">Workspace</div>
+                <h2>Schedule management</h2>
+              </div>
+              <p>
+                Configure working days, hours, breaks, available slots and
+                blocked time.
+              </p>
+            </div>
+            <div class="rich-grid">
+              <article class="rich-card">
+                <span class="rich-tag">Workflow</span>
+                <h3>Priority queue</h3>
+                <p>
+                  Surface the actions that require attention first, using status
+                  badges and clear next-step controls.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Activity</span>
+                <h3>Recent activity</h3>
+                <p>
+                  Review recent changes and user activity without leaving the
+                  current workspace.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Quality</span>
+                <h3>Data quality</h3>
+                <p>
+                  Use validation, filters and empty states to keep the interface
+                  predictable as demo data changes.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Actions</span>
+                <h3>Quick actions</h3>
+                <p>
+                  Create, view, edit, print or update the most common records
+                  from contextual actions.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="section rich-section">
+          <div class="container">
+            <div class="rich-heading">
+              <div>
+                <div class="eyebrow">Deeper workflow</div>
+                <h2>Designed for the work behind the headline metrics</h2>
+              </div>
+              <p>
+                The page combines operational information with actions so it
+                behaves like a product workspace rather than a static dashboard.
+              </p>
+            </div>
+            <div class="rich-grid">
+              <article class="rich-card">
+                <span class="rich-tag">Clinical</span>
+                <h3>Patient context</h3>
+                <p>
+                  Open the patient history before documenting a visit or
+                  creating a prescription.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Clinical</span>
+                <h3>Follow-up planning</h3>
+                <p>
+                  Capture follow-up dates and keep them visible in appointment
+                  and record workflows.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Schedule</span>
+                <h3>Schedule control</h3>
+                <p>
+                  Block time, adjust hours and maintain a predictable
+                  appointment calendar.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Analytics</span>
+                <h3>Performance trends</h3>
+                <p>
+                  Use analytics to understand workload and consultation patterns
+                  over time.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="section rich-section">
+          <div class="container">
+            <div class="rich-heading">
+              <div>
+                <div class="eyebrow">System behaviour</div>
+                <h2>Persistent, modular and frontend-only</h2>
+              </div>
+              <p>
+                Data is generated in JavaScript and persisted through
+                LocalStorage. The same interfaces can later be connected to a
+                real API without rebuilding the visual layer.
+              </p>
+            </div>
+            <div class="rich-grid">
+              <article class="rich-card">
+                <span class="rich-tag">Data</span>
+                <h3>Search and filtering</h3>
+                <p>
+                  Major tables expose search, filtering or sorting controls
+                  appropriate to the data.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Data</span>
+                <h3>Pagination</h3>
+                <p>
+                  Large demo collections can be paginated instead of rendering
+                  every row at once.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">UI</span>
+                <h3>Modal actions</h3>
+                <p>
+                  Add, edit, view and confirmation workflows use reusable modal
+                  components.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Feedback</span>
+                <h3>Toast feedback</h3>
+                <p>
+                  Successful and failed frontend actions provide immediate
+                  contextual feedback.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Responsive</span>
+                <h3>Responsive tables</h3>
+                <p>
+                  Dense records remain usable through horizontal scrolling or
+                  mobile card layouts.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+              <article class="rich-card">
+                <span class="rich-tag">Accessibility</span>
+                <h3>Theme preference</h3>
+                <p>
+                  Light and dark appearance preferences are persisted in
+                  LocalStorage.
+                </p>
+                <a href="#" class="text-link">Explore details <span>→</span></a>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div id="modal" class="modalbg">
+      <div class="modal">
+        <div class="mh">
+          <h3>Details</h3>
+          <button data-close>×</button>
+        </div>
+        <div class="mb"></div>
+        <div class="mf"></div>
+      </div>
+    </div>
+    <div class="toastwrap"></div>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

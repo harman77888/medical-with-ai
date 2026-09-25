@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Appointments | MediCore</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="brand" href="index.html"
+          ><span class="mark">+</span>MediCore</a
+        >
+        <nav class="nav">
+          <a href="index.html">Home</a><a href="services.html">Services</a
+          ><a href="doctors.html">Doctors</a><a href="about.html">About</a
+          ><a href="contact.html">Contact</a>
+        </nav>
+        <div class="navact">
+          <a class="btn secondary" href="login.html">Login</a
+          ><a class="btn primary" href="register.html">Get Started</a
+          ><button class="menu" data-menu>☰</button>
+        </div>
+      </div>
+    </header>
+    <main class="section">
+      <div class="container">
+        <div class="eyebrow">Appointment booking</div>
+        <h1>Book a consultation</h1>
+        <div class="card panel">
+          <section id="step1">
+            <h3>1. Select doctor</h3>
+            <div id="docs" class="grid g2"></div>
+          </section>
+          <section id="step2" class="hidden">
+            <h3>2. Select department</h3>
+            <div id="deps" class="actions"></div>
+          </section>
+          <section id="step3" class="hidden">
+            <h3>3. Select date</h3>
+            <div id="dates" class="actions"></div>
+          </section>
+          <section id="step4" class="hidden">
+            <h3>4. Select time</h3>
+            <div id="times" class="actions"></div>
+          </section>
+          <section id="step5" class="hidden">
+            <h3>5. Consultation type</h3>
+            <div id="types" class="actions"></div>
+          </section>
+          <section id="step6" class="hidden">
+            <h3>6. Patient details</h3>
+            <form id="bookform" class="form">
+              <div class="field">
+                <label>Name</label><input name="name" required />
+              </div>
+              <div class="field">
+                <label>Email</label><input name="email" type="email" required />
+              </div>
+              <div class="field full">
+                <label>Reason</label><textarea name="reason"></textarea>
+              </div>
+            </form>
+            <button class="btn primary" onclick="finishBook()">
+              Confirm booking
+            </button>
+          </section>
+          <section id="step7" class="hidden">
+            <div class="empty">
+              <h3>Appointment confirmed</h3>
+              <p>Your appointment ID is <b id="aid"></b>.</p>
+              <a class="btn primary" href="login.html">Continue</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <section class="section rich-section">
+      <div class="container">
+        <div class="rich-heading">
+          <div>
+            <div class="eyebrow">Appointment workflow</div>
+            <h2>Plan the visit before confirmation</h2>
+          </div>
+          <p>
+            The booking flow is designed as a multi-step frontend experience
+            with local persistence and clear confirmation states.
+          </p>
+        </div>
+        <div class="rich-grid">
+          <article class="rich-card">
+            <span class="rich-tag">Step 01</span>
+            <h3>Choose a clinician</h3>
+            <p>
+              Start with specialty and provider context so the appointment has a
+              clear destination.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Step 02</span>
+            <h3>Select a date</h3>
+            <p>
+              Review available demo dates and continue only after choosing a
+              valid day.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Step 03</span>
+            <h3>Choose a slot</h3>
+            <p>Time slots are presented as discrete selectable options.</p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Step 04</span>
+            <h3>Select consultation</h3>
+            <p>
+              Use in-person, video or follow-up options to describe the visit.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Step 05</span>
+            <h3>Confirm details</h3>
+            <p>
+              Review patient information before generating an appointment
+              identifier.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Step 06</span>
+            <h3>Track status</h3>
+            <p>
+              After booking, the appointment becomes part of the persistent
+              local dataset.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section rich-section">
+      <div class="container">
+        <div class="rich-heading">
+          <div>
+            <div class="eyebrow">Appointment states</div>
+            <h2>Every booking has a lifecycle</h2>
+          </div>
+          <p>
+            The interface can represent pending, confirmed, completed, cancelled
+            and rescheduled states so tables and dashboards remain informative.
+          </p>
+        </div>
+        <div class="rich-grid">
+          <article class="rich-card">
+            <span class="rich-tag">Status</span>
+            <h3>Confirmed</h3>
+            <p>
+              The visit is accepted and visible in upcoming appointment views.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Status</span>
+            <h3>Pending</h3>
+            <p>The request is waiting for a clinician or operations action.</p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Status</span>
+            <h3>Completed</h3>
+            <p>
+              The consultation has concluded and can connect to records or
+              billing.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+          <article class="rich-card">
+            <span class="rich-tag">Status</span>
+            <h3>Cancelled</h3>
+            <p>
+              The slot is released and the cancellation remains visible in
+              history.
+            </p>
+            <a href="#" class="text-link">Explore details <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container fg">
+        <div>
+          <div class="brand" style="color: #fff">
+            <span class="mark">+</span>MediCore
+          </div>
+          <p>Connected Care. Smarter Healthcare.</p>
+        </div>
+        <div>
+          <h3>Platform</h3>
+          <a href="patient-dashboard.html">Patient Portal</a
+          ><a href="doctor-dashboard.html">Doctor Portal</a
+          ><a href="appointments.html">Appointments</a>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <a href="about.html">About</a><a href="services.html">Services</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Support</h3>
+          <a href="help.html">Help Center</a><a href="faq.html">FAQ</a
+          ><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+        </div>
+      </div>
+      <div class="container fb">© 2026 MediCore · Frontend prototype.</div>
+    </footer>
+    <div id="modal" class="modalbg">
+      <div class="modal">
+        <div class="mh">
+          <h3>Details</h3>
+          <button data-close>×</button>
+        </div>
+        <div class="mb"></div>
+        <div class="mf"></div>
+      </div>
+    </div>
+    <div class="toastwrap"></div>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/booking.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script>
+      initBook();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+.modalbg {
+    position: fixed;
+    inset: 0;
+    background: #0c1d2b80;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    z-index: 120
+}
+
+.modalbg.open {
+    display: flex
+}
+
+.modal {
+    width: min(650px, 100%);
+    max-height: 90vh;
+    overflow: auto;
+    background: #fff;
+    border-radius: 12px
+}
+
+.mh,
+.mf {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--b);
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.mf {
+    border-top: 1px solid var(--b);
+    border-bottom: 0;
+    justify-content: flex-end
+}
+
+.mb {
+    padding: 20px
+}
+
+.toastwrap {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 200;
+    display: grid;
+    gap: 8px
+}
+
+.toast {
+    min-width: 280px;
+    background: #fff;
+    border: 1px solid var(--b);
+    border-left: 4px solid var(--ok);
+    box-shadow: var(--sh);
+    padding: 12px;
+    border-radius: 8px
+}
+
+.toast.error {
+    border-left-color: var(--bad)
+}

@@ -1,0 +1,1554 @@
+Pasted markdown.md
+File
+
+I’ve read your uploaded MediCore master requirements.
+
+It specifies a 30+ page professional healthcare SaaS frontend using only HTML5 + CSS3 + Vanilla JavaScript, with LocalStorage-based simulated authentication, CRUD, appointments, patient/doctor/admin dashboards, medical records, prescriptions, laboratory, pharmacy, billing, analytics, messaging, notifications, search, filters, pagination, dark mode, responsive UI, and modular files.
+
+What would you like me to do with it?
+
+Build the complete MediCore project from scratch
+Create all 30+ HTML pages + CSS + JS files
+Generate a complete ZIP project
+Start with the folder structure + core files
+Create a single master prompt optimized for generating the entire project
+Improve/refine this requirement before coding
+Generate a complete ZIP project
+
+Done. I created the complete MediCore frontend project ZIP based on your uploaded requirements, including 44 HTML pages, modular CSS/JS, LocalStorage demo data, patient/doctor/admin portals, appointments, records, prescriptions, laboratory, pharmacy, billing, analytics, notifications, messaging, responsive layout, dark mode, CRUD-style interactions, and authentication simulation.
+
+Download
+
+Download MediCore Complete Project ZIP
+
+Demo Login
+Patient: patient@medicore.demo / patient123
+Doctor: doctor@medicore.demo / doctor123
+Admin: admin@medicore.demo / admin123
+
+Technology: 100% HTML + CSS + Vanilla JavaScript frontend. No React, Node.js, Express, MongoDB, PHP, Python, Bootstrap or Tailwind.
+
+The ZIP contains 70 project files and 44 HTML pages. 
+
+isme contant bahut hai sare page scroll ho jada contant dalo isme 
+
+It seems like I can’t do more advanced data analysis right now. Please try again later.
+
+Aapki requirement clear hai: MediCore ke pages ko short nahi rakhna — har page mein kaafi detailed content, multiple sections, cards, tables, workflow information aur enough vertical content hona chahiye taaki proper long scrolling website lage.
+
+Main existing ZIP ko isi structure ke according update karunga, lekin abhi ZIP regenerate karne wala tool available nahi hua. 
+
+You’re out of data analysis for now. Start a free Plus trial for more, or try again tomorrow after 4:59 PM.
+Try Plus free
+
+MEDICORE
+Smart Healthcare Management Platform
+HTML + CSS + Vanilla JavaScript Only
+
+Build a complete, advanced, professional healthcare management website named “MediCore” using ONLY:
+
+HTML5
+CSS3
+Vanilla JavaScript
+
+Do NOT use:
+
+React
+Vue
+Angular
+Node.js
+Express
+MongoDB
+PHP
+Python
+Bootstrap
+Tailwind CSS
+jQuery
+Backend APIs
+
+The entire project must run directly in a browser using HTML, CSS and JavaScript.
+
+Use JavaScript and LocalStorage to simulate dynamic application functionality.
+
+1. PROJECT OBJECTIVE
+
+MediCore should look like a real modern healthcare technology platform rather than a basic HTML college project.
+
+The website should contain:
+
+Public healthcare website
+Patient portal
+Doctor portal
+Admin dashboard
+Appointment management
+Doctor directory
+Medical records
+Prescriptions
+Laboratory reports
+Pharmacy management
+Billing
+Notifications
+Messaging
+Analytics
+Profile management
+Settings
+
+The website should feel like a complete healthcare SaaS frontend prototype.
+
+2. FILE STRUCTURE
+
+Create the project using separate HTML, CSS and JavaScript files.
+
+Recommended structure:
+
+MediCore/
+│
+├── index.html
+├── about.html
+├── services.html
+├── doctors.html
+├── doctor-profile.html
+├── appointments.html
+├── contact.html
+├── login.html
+├── register.html
+├── forgot-password.html
+│
+├── patient-dashboard.html
+├── patient-appointments.html
+├── patient-records.html
+├── patient-prescriptions.html
+├── patient-lab-reports.html
+├── patient-pharmacy.html
+├── patient-billing.html
+├── patient-messages.html
+├── patient-profile.html
+├── patient-settings.html
+│
+├── doctor-dashboard.html
+├── doctor-appointments.html
+├── doctor-patients.html
+├── doctor-records.html
+├── doctor-prescriptions.html
+├── doctor-lab-reports.html
+├── doctor-schedule.html
+├── doctor-messages.html
+├── doctor-analytics.html
+├── doctor-profile.html
+│
+├── admin-dashboard.html
+├── admin-patients.html
+├── admin-doctors.html
+├── admin-departments.html
+├── admin-staff.html
+├── admin-appointments.html
+├── admin-laboratory.html
+├── admin-pharmacy.html
+├── admin-billing.html
+├── admin-analytics.html
+├── admin-notifications.html
+├── admin-audit-logs.html
+├── admin-settings.html
+│
+├── 404.html
+│
+├── css/
+│   ├── global.css
+│   ├── navbar.css
+│   ├── footer.css
+│   ├── landing.css
+│   ├── forms.css
+│   ├── dashboard.css
+│   ├── tables.css
+│   ├── modals.css
+│   └── responsive.css
+│
+├── js/
+│   ├── main.js
+│   ├── auth.js
+│   ├── data.js
+│   ├── appointments.js
+│   ├── doctors.js
+│   ├── patients.js
+│   ├── records.js
+│   ├── prescriptions.js
+│   ├── laboratory.js
+│   ├── pharmacy.js
+│   ├── billing.js
+│   ├── notifications.js
+│   ├── messages.js
+│   ├── analytics.js
+│   └── admin.js
+│
+└── assets/
+    ├── images/
+    └── icons/
+
+
+
+Every page should use external CSS and JavaScript files.
+
+3. DESIGN STYLE
+
+The design should be:
+
+Premium
+Clean
+Modern
+Professional
+Healthcare-focused
+Enterprise SaaS style
+Minimal
+Responsive
+
+Color direction:
+
+White
+Soft blue
+Deep navy
+Teal
+Light gray
+Neutral backgrounds
+
+Avoid excessive:
+
+Gradients
+Neon
+Glassmorphism
+Rounded cards
+Shadows
+Animations
+
+The website must NOT look like an AI-generated template.
+
+4. TYPOGRAPHY
+
+Use:
+
+Inter
+Manrope
+Plus Jakarta Sans
+
+Create a strong typography hierarchy.
+
+Use:
+
+H1 — 48–64px
+H2 — 32–42px
+H3 — 22–28px
+Body — 15–18px
+Dashboard text — 13–16px
+
+
+
+Use responsive font sizes on smaller screens.
+
+5. ICONS
+
+Use a professional icon library such as:
+
+Lucide Icons CDN
+
+Do NOT use:
+
+Emojis
+Keyboard symbols
+Random Unicode icons
+
+Icons should have consistent style.
+
+6. HOME PAGE
+
+Create a premium landing page.
+
+Header
+
+Logo:
+
+MediCore
+
+Navigation:
+
+Home
+Services
+Doctors
+About
+Contact
+
+Right side:
+
+Login
+Get Started
+
+Mobile:
+
+Hamburger menu
+Mobile navigation drawer
+HERO SECTION
+
+Headline:
+
+Smarter Healthcare. Better Patient Outcomes.
+
+Description:
+
+“Manage appointments, doctors, medical records, prescriptions and healthcare operations through one connected platform.”
+
+Buttons:
+
+Book an Appointment
+
+Explore Platform
+
+Add a realistic healthcare dashboard visual on the right.
+
+7. STATISTICS
+
+Create animated counters.
+
+Example:
+
+25,000+
+Patients
+
+850+
+Doctors
+
+120+
+Specialists
+
+98%
+Patient Satisfaction
+
+
+
+Numbers should animate when the section enters the viewport.
+
+8. FEATURES
+
+Create feature cards:
+
+Smart Appointments
+Digital Medical Records
+Doctor Management
+Laboratory Reports
+Pharmacy Management
+Billing
+Healthcare Analytics
+Secure Communication
+
+Cards should have:
+
+Icon
+Heading
+Description
+Hover animation
+9. HOW MEDICORE WORKS
+
+Create six steps:
+
+Create Account
+Find Doctor
+Book Appointment
+Consult Doctor
+Receive Prescription
+Manage Healthcare
+
+Use timeline/stepper design.
+
+10. SERVICES PAGE
+
+Create detailed service cards.
+
+Services:
+
+Patient Management
+
+Manage patient information and healthcare history.
+
+Doctor Management
+
+Manage doctors, schedules and appointments.
+
+Medical Records
+
+Digitally organize healthcare records.
+
+Laboratory
+
+Manage tests and reports.
+
+Pharmacy
+
+Track medicines and inventory.
+
+Billing
+
+Manage invoices and payments.
+
+Analytics
+
+Monitor healthcare performance.
+
+Communication
+
+Connect doctors and patients.
+
+11. DOCTORS PAGE
+
+Create dynamic doctor directory using JavaScript data.
+
+Each doctor:
+
+Doctor Image
+Name
+Specialization
+Qualification
+Experience
+Hospital
+Rating
+Consultation Fee
+Availability
+
+
+
+Add:
+
+Search
+Specialty filter
+Experience filter
+Availability filter
+Sort
+
+JavaScript should dynamically generate doctor cards.
+
+12. DOCTOR PROFILE
+
+Create detailed profile.
+
+Sections:
+
+Profile
+About
+Qualification
+Experience
+Specialization
+Consultation fee
+Working hours
+Available slots
+Reviews
+
+Button:
+
+Book Appointment
+
+13. APPOINTMENT BOOKING
+
+Create a multi-step booking interface.
+
+Step 1
+
+Select doctor.
+
+Step 2
+
+Select department.
+
+Step 3
+
+Select date.
+
+Step 4
+
+Select time.
+
+Step 5
+
+Select consultation type.
+
+Options:
+
+In-person
+Video consultation
+Follow-up
+Step 6
+
+Patient details.
+
+Step 7
+
+Confirmation.
+
+Generate an appointment ID using JavaScript.
+
+Save appointment data into LocalStorage.
+
+14. LOGIN
+
+Create premium login page.
+
+Fields:
+
+Email
+Password
+
+Options:
+
+Remember me
+Forgot password
+
+Demo login roles:
+
+Patient
+Doctor
+Admin
+
+
+
+After login redirect based on selected role.
+
+15. REGISTER
+
+Fields:
+
+Full Name
+Email
+Phone
+Date of Birth
+Gender
+Password
+Confirm Password
+Account Type
+
+Use JavaScript validation.
+
+Save demo account to LocalStorage.
+
+16. PATIENT DASHBOARD
+
+Create a complete dashboard.
+
+Sidebar:
+
+Dashboard
+Appointments
+Medical Records
+Prescriptions
+Lab Reports
+Pharmacy
+Billing
+Messages
+Notifications
+Profile
+Settings
+
+Dashboard cards:
+
+Upcoming Appointment
+Total Appointments
+Prescriptions
+Pending Reports
+
+
+
+Health cards:
+
+Heart Rate
+Blood Pressure
+Blood Glucose
+BMI
+
+
+17. PATIENT APPOINTMENTS
+
+Create dynamic appointment table.
+
+Columns:
+
+Doctor
+Department
+Date
+Time
+Type
+Status
+Actions
+
+Actions:
+
+View
+Reschedule
+Cancel
+
+Cancel should update LocalStorage.
+
+18. PATIENT MEDICAL RECORDS
+
+Create medical records interface.
+
+Display:
+
+Visit date
+Doctor
+Diagnosis
+Symptoms
+Treatment
+Notes
+
+Create expandable record details.
+
+19. PATIENT PRESCRIPTIONS
+
+Display:
+
+Prescription ID
+Doctor
+Date
+Medicines
+Dosage
+Duration
+Instructions
+
+Buttons:
+
+View
+Print
+
+Use JavaScript to generate a printable prescription layout.
+
+20. PATIENT LAB REPORTS
+
+Display:
+
+Test name
+Doctor
+Date
+Result
+Status
+
+Example tests:
+
+CBC
+Blood Glucose
+Lipid Profile
+Liver Function Test
+Kidney Function Test
+Thyroid Profile
+
+Create professional result indicators.
+
+21. PATIENT PHARMACY
+
+Create:
+
+Medicine list
+Prescription medicines
+Order history
+Order status
+
+Statuses:
+
+Processing
+Ready
+Delivered
+Cancelled
+22. PATIENT BILLING
+
+Create invoice table.
+
+Fields:
+
+Invoice ID
+Date
+Doctor
+Services
+Amount
+Payment status
+
+Create invoice modal.
+
+Buttons:
+
+View
+Print
+23. PATIENT MESSAGES
+
+Create chat interface.
+
+Left:
+
+Conversation list.
+
+Right:
+
+Chat window.
+
+Features:
+
+Search
+Send message
+Timestamp
+Read status
+Attachment UI
+
+Use JavaScript to simulate sending messages.
+
+24. PATIENT PROFILE
+
+Sections:
+
+Personal
+Name
+Email
+Phone
+DOB
+Gender
+Emergency Contact
+Name
+Relationship
+Phone
+Health
+Blood group
+Allergies
+Medical conditions
+
+Allow editing.
+
+Save changes in LocalStorage.
+
+25. DOCTOR DASHBOARD
+
+Create separate doctor interface.
+
+Sidebar:
+
+Dashboard
+Appointments
+Patients
+Medical Records
+Prescriptions
+Lab Reports
+Schedule
+Messages
+Analytics
+Profile
+Settings
+
+Cards:
+
+Today's appointments
+Total patients
+Completed consultations
+Pending appointments
+26. DOCTOR APPOINTMENTS
+
+Dynamic table:
+
+Patient
+Date
+Time
+Type
+Reason
+Status
+Action
+
+
+
+Actions:
+
+Accept
+Reject
+Complete
+Reschedule
+View Patient
+
+Update data dynamically.
+
+27. DOCTOR PATIENTS
+
+Patient table:
+
+ID
+Name
+Age
+Gender
+Last Visit
+Condition
+Status
+
+Features:
+
+Search
+Filter
+View
+Medical record
+Prescription
+28. DOCTOR MEDICAL RECORDS
+
+Create record form:
+
+Patient
+Symptoms
+Diagnosis
+Blood Pressure
+Heart Rate
+Temperature
+Treatment
+Doctor Notes
+Follow-up Date
+
+
+
+Save record to LocalStorage.
+
+29. DOCTOR PRESCRIPTIONS
+
+Create dynamic prescription builder.
+
+Doctor can:
+
+Select patient
+Add medicine
+Set dosage
+Set frequency
+Set duration
+Add instructions
+Add multiple medicines
+Remove medicine
+Save prescription
+30. DOCTOR SCHEDULE
+
+Create calendar/schedule interface.
+
+Features:
+
+Working days
+Working hours
+Break time
+Available slots
+Block time
+
+Allow doctor to modify schedule using JavaScript.
+
+31. DOCTOR LAB REPORTS
+
+Doctor can:
+
+View reports
+Search reports
+Filter reports
+Review report
+Add comments
+32. DOCTOR ANALYTICS
+
+Create charts using JavaScript.
+
+Charts:
+
+Patient growth
+Appointments
+Consultation types
+Monthly revenue
+
+Use a chart library CDN such as Chart.js if required.
+
+33. ADMIN DASHBOARD
+
+Create enterprise-level admin dashboard.
+
+Sidebar:
+
+Dashboard
+Patients
+Doctors
+Departments
+Staff
+Appointments
+Laboratory
+Pharmacy
+Billing
+Analytics
+Notifications
+Audit Logs
+Settings
+
+Dashboard statistics:
+
+Total Patients
+Active Doctors
+Today's Appointments
+Pending Reports
+Monthly Revenue
+Low Stock Medicines
+
+
+34. ADMIN PATIENT MANAGEMENT
+
+Create full CRUD frontend.
+
+Functions:
+
+Add patient
+View patient
+Edit patient
+Delete patient
+Search
+Filter
+Sort
+Pagination
+
+Use modal forms.
+
+Store changes in LocalStorage.
+
+35. ADMIN DOCTOR MANAGEMENT
+
+CRUD:
+
+Add doctor
+Edit doctor
+View doctor
+Delete doctor
+
+Fields:
+
+Name
+Email
+Specialty
+Qualification
+Experience
+Department
+Fee
+Status
+36. DEPARTMENT MANAGEMENT
+
+Departments:
+
+Cardiology
+Neurology
+Orthopedics
+Dermatology
+Pediatrics
+General Medicine
+Gynecology
+ENT
+
+Admin can:
+
+Add
+Edit
+Delete
+Search
+37. STAFF MANAGEMENT
+
+Staff categories:
+
+Nurse
+Receptionist
+Laboratory Staff
+Pharmacy Staff
+Administrative Staff
+
+Create dynamic staff table.
+
+38. LABORATORY MANAGEMENT
+
+Create laboratory dashboard.
+
+Statistics:
+
+Total Tests
+Pending Tests
+Completed Tests
+Abnormal Results
+
+Test table:
+
+Test ID
+Patient
+Test
+Doctor
+Date
+Status
+Result
+
+
+
+Admin can update test status.
+
+39. PHARMACY MANAGEMENT
+
+Create inventory system.
+
+Statistics:
+
+Total Medicines
+Low Stock
+Expiring Soon
+Out of Stock
+
+Medicine table:
+
+Medicine
+Batch
+Supplier
+Stock
+Expiry
+Price
+Status
+
+
+
+Functions:
+
+Add medicine
+Edit
+Delete
+Search
+Filter
+Sort
+
+Create automatic low-stock warning.
+
+40. BILLING MANAGEMENT
+
+Create billing dashboard.
+
+Invoice fields:
+
+Invoice ID
+Patient
+Doctor
+Services
+Subtotal
+Discount
+Tax
+Total
+Payment Status
+Date
+
+
+
+Calculate totals automatically with JavaScript.
+
+41. ADMIN ANALYTICS
+
+Create professional analytics page.
+
+Charts:
+
+Patient Growth
+
+Line chart.
+
+Revenue
+
+Bar chart.
+
+Appointments
+
+Doughnut chart.
+
+Departments
+
+Comparison chart.
+
+Charts must use dynamic JavaScript data.
+
+42. NOTIFICATIONS
+
+Create notification center.
+
+Notifications:
+
+Appointment booked
+Appointment reminder
+Prescription created
+Lab report ready
+Payment received
+Low pharmacy stock
+
+Functions:
+
+Mark as read
+Delete
+Mark all as read
+43. AUDIT LOGS
+
+Create activity history.
+
+Example:
+
+Admin added new doctor
+Patient booked appointment
+Doctor created prescription
+Lab report updated
+Medicine inventory updated
+Invoice generated
+
+
+
+Use dynamically generated timestamps.
+
+44. SETTINGS
+
+Create:
+
+Account Settings
+Name
+Email
+Phone
+Security
+Change password
+Session information
+Notifications
+Email alerts
+Appointment alerts
+System alerts
+Appearance
+Light mode
+Dark mode
+
+Save preferences using LocalStorage.
+
+45. SEARCH
+
+Implement global search.
+
+Search across:
+
+Doctors
+Patients
+Appointments
+Medicines
+Reports
+
+Show:
+
+Search suggestions
+Matching results
+No result state
+46. FILTERS
+
+Every major data table should support filtering.
+
+Examples:
+
+Appointments:
+
+Status
+Date
+Doctor
+
+Doctors:
+
+Specialty
+Experience
+Availability
+
+Medicines:
+
+Stock
+Expiry
+Category
+
+Patients:
+
+Gender
+Age
+Status
+47. PAGINATION
+
+Implement JavaScript pagination.
+
+Example:
+
+Previous
+1
+2
+3
+4
+Next
+
+
+
+Do not display all large datasets at once.
+
+48. MODAL SYSTEM
+
+Create reusable modal functionality for:
+
+Add
+Edit
+View
+Delete confirmation
+Appointment details
+Prescription details
+Invoice details
+49. TOAST NOTIFICATIONS
+
+Create reusable toast system.
+
+Examples:
+
+Appointment booked successfully.
+Patient updated successfully.
+Prescription created successfully.
+Medicine stock updated.
+Invoice generated successfully.
+
+
+50. FORM VALIDATION
+
+Implement JavaScript validation.
+
+Check:
+
+Required fields
+Email
+Phone
+Password
+Date
+Number
+Empty values
+
+Show errors directly beside fields.
+
+51. LOCAL STORAGE
+
+Use LocalStorage for frontend persistence.
+
+Store:
+
+medicore_users
+medicore_current_user
+medicore_appointments
+medicore_patients
+medicore_doctors
+medicore_prescriptions
+medicore_records
+medicore_lab_reports
+medicore_medicines
+medicore_invoices
+medicore_notifications
+medicore_messages
+medicore_settings
+
+
+
+When the browser refreshes, data should remain available.
+
+52. DYNAMIC DATA
+
+Do NOT hardcode every card directly into HTML.
+
+Store demo data in JavaScript arrays/objects.
+
+Example:
+
+const doctors = [
+    {
+        id: "DOC001",
+        name: "Dr. Arjun Mehta",
+        specialty: "Cardiology",
+        experience: 12,
+        fee: 1200,
+        availability: "Available"
+    }
+];
+
+
+
+Generate UI using JavaScript.
+
+53. DASHBOARD CHARTS
+
+Use Chart.js CDN if needed.
+
+Charts should be:
+
+Responsive
+Interactive
+Professional
+Based on JavaScript data
+
+Do not create fake-looking decorative charts.
+
+54. RESPONSIVE DESIGN
+
+The website must work properly on:
+
+Desktop
+
+Full dashboard.
+
+Laptop
+
+Optimized content width.
+
+Tablet
+
+Collapsible sidebar.
+
+Mobile
+
+Mobile navigation.
+
+Cards should become one-column.
+
+Tables should become responsive cards or horizontal scroll containers where appropriate.
+
+55. MOBILE SIDEBAR
+
+On mobile:
+
+Sidebar hidden initially
+Hamburger opens sidebar
+Overlay behind sidebar
+Close button
+Clicking outside closes sidebar
+56. DARK MODE
+
+Implement optional dark mode using CSS variables.
+
+Save selected theme in LocalStorage.
+
+Dark mode must remain professional and accessible.
+
+57. ANIMATIONS
+
+Use only subtle CSS/JavaScript animations:
+
+Fade in
+Slide
+Hover
+Counter
+Modal
+Sidebar
+Dropdown
+Page loading
+
+Do not use:
+
+Glitch
+Flashing
+Excessive bouncing
+Neon effects
+58. LOADING STATES
+
+Create:
+
+Skeleton cards
+Table loading
+Button loading
+Page loading
+
+Use JavaScript to simulate realistic loading where needed.
+
+59. EMPTY STATES
+
+Examples:
+
+No upcoming appointments.
+No medical records found.
+No laboratory reports available.
+No notifications.
+No messages found.
+
+
+60. ERROR STATES
+
+Create:
+
+404 Page
+
+“Page not found.”
+
+Unauthorized
+
+“You don't have permission to access this page.”
+
+Empty Search
+
+“No results found.”
+
+61. ACCESSIBILITY
+
+Implement:
+
+Semantic HTML
+Labels
+Alt attributes
+Focus states
+Keyboard navigation
+Good color contrast
+Accessible forms
+Accessible buttons
+62. SEO
+
+Public pages should include:
+
+Title
+Meta description
+Proper headings
+Semantic sections
+Image alt text
+Open Graph metadata where appropriate
+63. PERFORMANCE
+
+Optimize:
+
+Images
+CSS
+JavaScript
+DOM manipulation
+
+Use:
+
+Lazy loading
+Efficient event listeners
+Reusable functions
+Minimal dependencies
+64. FOOTER
+
+Public website footer:
+
+MediCore
+
+Connected Care. Smarter Healthcare.
+
+Platform
+Patient Portal
+Doctor Portal
+Appointments
+Medical Records
+Company
+About
+Services
+Contact
+Support
+Help Center
+FAQ
+Legal
+Privacy
+Terms
+
+Dashboard pages should have a compact footer or no marketing footer.
+
+65. REALISTIC DEMO DATA
+
+Create realistic demo data.
+
+Minimum:
+
+20 Patients
+12 Doctors
+8 Departments
+30 Appointments
+20 Prescriptions
+20 Lab Reports
+30 Medicines
+20 Invoices
+20 Notifications
+10 Conversations
+
+
+
+Use different names, dates, statuses and values.
+
+Do not repeat the same information everywhere.
+
+66. IMPORTANT DESIGN REQUIREMENT
+
+The final website should NOT look like:
+
+Beginner HTML project
+Simple CRUD project
+Basic hospital template
+Bootstrap template
+Generic dashboard
+AI-generated website
+
+It should look like a professional healthcare product prototype.
+
+67. NO BACKEND
+
+Since this project is HTML/CSS/JavaScript only:
+
+Do not create fake backend APIs.
+
+Instead:
+
+Use JavaScript
+Use LocalStorage
+Use static/demo data
+Simulate authentication
+Simulate CRUD
+Simulate notifications
+Simulate appointments
+
+Clearly structure the JavaScript so a real backend can be connected later.
+
+68. FINAL FOLDER QUALITY
+
+Do not put all CSS in one giant file and all JavaScript in one giant file.
+
+Separate functionality logically.
+
+Use reusable functions such as:
+
+showToast()
+openModal()
+closeModal()
+saveData()
+getData()
+deleteData()
+updateData()
+formatDate()
+generateId()
+checkAuth()
+redirectByRole()
+
+
+69. FINAL REQUIREMENT
+
+The final MediCore project must be:
+
+100% HTML + CSS + Vanilla JavaScript
+
+It must contain:
+
+30+ HTML pages
+Professional CSS
+Modular JavaScript
+Responsive layout
+Dynamic data
+LocalStorage
+CRUD operations
+Authentication simulation
+Patient dashboard
+Doctor dashboard
+Admin dashboard
+Appointment system
+Medical records
+Prescriptions
+Laboratory
+Pharmacy
+Billing
+Analytics
+Notifications
+Messaging
+Search
+Filters
+Pagination
+Modals
+Toast notifications
+Form validation
+Dark mode
+Mobile navigation
+Loading states
+Empty states
+Error states
+
+The final result should be suitable for a professional frontend portfolio and MERN/JavaScript interview demonstration, while remaining completely independent of any backend.
+
+Close
